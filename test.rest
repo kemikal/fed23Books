@@ -1,0 +1,24 @@
+GET http://localhost:3000/books
+
+###
+
+GET http://localhost:3000/books/3
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "bookName": "Otcom",
+  "isbn": "172753731-9",
+  "Author": "Ewart",
+  "rented": false
+}
+
+###
+
+PATCH http://localhost:3000/books/3
+Content-Type: application/json
+
+###
